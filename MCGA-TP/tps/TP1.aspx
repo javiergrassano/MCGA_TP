@@ -9,10 +9,10 @@
             <p>Se necesita conocer el esfuerzo que implica el desarrollo de software.</p>
             <p>Consignas del codigo:</p>
             <ul>
-                <li>Resolver la ecuacion de putman.</li>
+                <li>Resolver la ecuación de putman.</li>
                 <li>Resolver por <b>SESSION</b>.</li>
                 <li>Resolver por <b>COOKIES</b>.</li>
-                <li>Se debe usar un control de validacion la Ck que es la constante tecnologica.</li>
+                <li>Se debe usar un control de validación la Ck que es la constante tecnológica.</li>
             </ul>
         </div>
     </div>
@@ -21,8 +21,8 @@
     <div class="row">
         <div class="col-md-8">
             <div class="formula"><img src="tp1_1.png" /></div>
-            <p><label class="variable">L</label> = Lineas de codigo en miles.</p>
-            <p><label class="variable">Ck</label> = Constante Tecnologica de desarrollo.</p>
+            <p><label class="variable">L</label> = Líneas de código en miles.</p>
+            <p><label class="variable">Ck</label> = Constante Tecnológica de desarrollo.</p>
             <p><label class="variable">td</label> = Tiempo de desarrollo en años.</p>
             <p><label class="variable">K</label> = Esfuerzo (persona/año).</p>
         </div>
