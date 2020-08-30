@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MCGA_TP._Default" %>
+﻿<%@ Page Title="MCGA - TPS" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MCGA_TP._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -19,13 +19,17 @@
             <strong>Trabajo practico 1</strong>
             <p>Resolución de la ecuación de Putman</p>
             <p>Utilizando SESSION y COOKIE</p>
-            <a class="btn btn-success" href="tps\tp1.aspx">
+            <a class="btn btn-success btn-block" href="tps\tp1.aspx">
                 <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
                 Ir al tp
             </a>
-            <a class="btn btn-warning" href="tps/MCGA-CASTELAR-TP1-Codigo-Cortes-Detitto-Grassano-GonzalezMoro-Zalazar.pdf" target="_blank">
+            <a class="btn btn-info" href="tps/MCGA-CASTELAR-TP1-Codigo-Cortes-Detitto-Grassano-GonzalezMoro-Zalazar.pdf" target="_blank">
                 <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
-                Descargar documento
+                Descargar código en word
+            </a>
+            <a class="btn btn-warning" href="tps/MCGA-CASTELAR-TP1-Cuestionario-Cortes-Detitto-Grassano-GonzalezMoro-Zalazar.pdf" target="_blank">
+                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                Descargar cuestionario
             </a>
         </div>
 
@@ -33,10 +37,10 @@
             <strong>Trabajo practico 2</strong>
             <p>Resolución de la ecuación de Putman</p>
             <p>Utilizando Web Service</p>
-            <a class="btn btn-success" href="tps\tp2.aspx">Ir al tp</a>
-            <a class="btn btn-warning" href="tps/MCGA-CASTELAR-TP2-Codigo-Cortes-Detitto-Grassano-GonzalezMoro-Zalazar.pdf" target="_blank">
+            <a class="btn btn-success btn-block" href="tps\tp2.aspx">Ir al tp</a>
+            <a class="btn btn-info" href="tps/MCGA-CASTELAR-TP2-Codigo-Cortes-Detitto-Grassano-GonzalezMoro-Zalazar.pdf" target="_blank">
                 <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
-                Descargar documento
+                Descargar código en word
             </a>
         </div>
 

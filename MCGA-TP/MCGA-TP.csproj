@@ -102,7 +102,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -166,13 +165,6 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Models\EcuacionPutnam.cs" />
     <Compile Include="tps\TP2.aspx.cs">
       <DependentUpon>TP2.aspx</DependentUpon>
@@ -241,6 +233,7 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="tps\MCGA-CASTELAR-TP1-Codigo-Cortes-Detitto-Grassano-GonzalezMoro-Zalazar.pdf" />
     <Content Include="tps\MCGA-CASTELAR-TP2-Codigo-Cortes-Detitto-Grassano-GonzalezMoro-Zalazar.pdf" />
+    <Content Include="tps\MCGA-CASTELAR-TP1-Cuestionario-Cortes-Detitto-Grassano-GonzalezMoro-Zalazar.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
